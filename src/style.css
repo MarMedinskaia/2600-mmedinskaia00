@@ -1,0 +1,184 @@
+body {
+  background-color: snow;
+  font-family: Lucida, Arial, sans-serif;
+  margin: 0px;
+}
+#wrapper {
+  padding-top: 20px;
+  align-items: center;
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding-bottom: 100px;
+  box-shadow: 2px 2px 2px white;
+}
+
+#forms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1 {
+  color: darkgreen;
+  text-align: center;
+  text-shadow: 2px 2px lightgreen;
+}
+h2 {
+  text-align: center;
+  color: green;
+  margin-top: 70px;
+}
+#allvitamins h2 {
+  text-shadow: 1px 2px yellow;
+}
+#allfood h2 {
+  text-shadow: 1px 2px orange;
+}
+
+form {
+  box-sizing: border-box;
+  border:4px solid green;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px darkgreen;
+  margin: 20px;
+  padding: 30px;
+  background-color: mintcream;
+}
+form:hover {
+  transform: scale(1.03);
+}
+h3 {
+  margin-top: 0px;
+  font-size: 20px;
+  text-align: center;
+}
+form, form>label {
+  display: flex;
+  flex-direction: column;
+}
+form button {
+  background-color: lightyellow;
+  color: darkgreen;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 2px 2px green;
+  width: 50%;
+  height: 30px;
+  margin-left: 25%;
+}
+button:hover {
+  transform: scale(1.1);
+}
+
+label,fieldset {
+  margin-bottom:1rem;
+  margin-right:1rem;
+  font-size: 18px;
+}
+.vitamins {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.vitamins button {
+  color: yellow;
+  text-shadow: 1px 1px yellowgreen;
+  background-color: darkgreen;
+  text-align: center;
+  height: 60px;
+  width: 250px;
+  padding: 10px;
+  margin: 20px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  box-shadow: 2px 2px lightgreen;
+}
+
+.info {
+  border: 1px solid darkgreen;
+  background-color: lightyellow;
+  padding: 10px;
+  width: 230px;
+  margin: 20px;
+  margin-top: 0px;
+}
+
+.vitamin:hover {
+  transform: scale(1.1);
+}
+
+.food {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  justify-content: center;
+}
+.food {
+  list-style-type: none;
+}
+.foodName {
+  border: 2px solid forestgreen;
+  padding: 10px;
+  margin: 20px;
+  background-color: lemonchiffon;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 1px 1px orange;
+}
+.contain>li {
+  text-shadow: none;
+}
+#allfood ul {
+  margin-bottom: 0px;
+}
+.food ul li {
+  list-style-type: disc;
+  text-align: left;
+  text-shadow: 0px;
+}
+
+/*.confirmation {*/
+/*    border:4px solid rebeccapurple;*/
+/*    border-radius: 7px;*/
+/*    padding:1rem;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/* input[type="submit"], input[type="reset"]
+{
+  align-self: center;
+} */
+
+/* .error {
+  display: block;
+  color:red;
+}
+
+.server-side-error {
+  display: block;
+  color:blue;
+} */
+
+
+/* .results
+{
+  border:4px solid rebeccapurple;
+  border-radius: 7px;
+  padding:1rem;
+  box-sizing: border-box;
+} */
+
+/* .result-text
+{
+  color:white;
+  background-color: rebeccapurple;
+  border-radius: 7px;
+  padding:.5rem;
+  margin:.5rem;
+
+} */
+
