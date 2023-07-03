@@ -39,7 +39,7 @@ const App = props=>{
             foods: containedIn
         };
     
-        axios.post('/vitamins', vitamin)
+        axios.post('/vitamins/api/v1', vitamin)
         .then(result=>{
             console.log(result.data," 1");
             setAllVitamins(allVitamins.concat(result.data));
@@ -58,7 +58,7 @@ const App = props=>{
                 vitamins: contains
             };
         
-        axios.post('/foods', food)
+        axios.post('/foods/api/v1', food)
         .then(result=>{
             setAllFood(allFood.concat(result.data));
         })
@@ -96,26 +96,3 @@ const App = props=>{
 }
 
 export default App;
-
-    
-        //console.log("loading the most recent comment");
-        // axios.get('https://hacker-news.firebaseio.com/v0/maxitem.json?print=pretty')
-        //     .then(result=>{
-        //         setMostRecentID(result.data);
-        //     })
-        //     .catch(error=>{console.log(error)})
-        // }
-
-            // axios.post("/api/animals", vit)  //submitting data object; axios (ajax client) - for using JS to make POST request
-            // .then(result=>{
-            //      console.log(result.data);
-            // })
-            // .catch(error=>console.log(error.response.data));
-            
-//         axios.post('/vitamins', nameOfList)
-//         .then(result=>{
-//             console.log(result.value+" 1");
-//             setPlaylists(playlists.concat(result.data));
-//         })
-//          .catch(error=>console.log(error));
-//     }
